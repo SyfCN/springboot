@@ -6,6 +6,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @RestController controller 里的方法都是以json格式输出
+ */
 @RestController
 public class TestController {
     Logger logger = LoggerFactory.getLogger(TestController.class);
